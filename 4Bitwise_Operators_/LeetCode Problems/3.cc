@@ -12,7 +12,6 @@ using namespace std;
 int func(int n)
 {
     int i = 1;
-    ;
     while (i<=n)
     {
         int ans = pow(2, i);

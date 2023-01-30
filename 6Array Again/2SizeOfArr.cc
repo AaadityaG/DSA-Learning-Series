@@ -5,6 +5,5 @@ int main()
     int a[10];
     int asize = sizeof(a)/sizeof(int);
     cout<<"Size of array a : "<<asize<<endl;
-    // arrsize(a);
     return 0;
 }

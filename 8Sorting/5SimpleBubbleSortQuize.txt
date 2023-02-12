@@ -1,0 +1,34 @@
+Q1. No. of swaps needen in bubble sort for array : 8, 22, 7, 9, 31, 5, 13 
+A. Total no. of Sorts = 10
+
+
+Pass I - Swaps(4) 
+    8, 7, 9, 22, 5, 13, 31
+
+Pass II - Swaps(3 + 4)
+    7, 8, 9, 5, 13, 22, 31 
+
+Pass III - Swaps(3 + 4 + 1)
+    7, 8, 5, 9, 13, 22, 31
+
+Pass IV - Swaps(3 + 4 + 1 + 1)
+    7, 5, 8, 9, 13, 22, 31
+
+Pass V - Swaps(3 + 4 + 1 + 1 + 1)
+    5, 7, 8, 9, 13, 22, 31
+
+
+
+Q2.Is Stable? Array : 8, 22, 7, 9, 8
+A. YES
+
+Pass I : 
+    8, 22, 7, 9, 8
+    8, 7, 22, 9, 8
+    7, 8, 9, 22, 8
+    7, 8, 9, 8, 22
+Pass I : 
+    7, 8, 9, 8, 22
+    7, 8, 8, 9, 22
+    7, 8, 8, 9, 22
+    7, 8, 8, 9, 22

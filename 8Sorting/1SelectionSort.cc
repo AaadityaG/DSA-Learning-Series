@@ -1,7 +1,13 @@
-// arr = 4, 3, 2, 1
-// Time complexity - O(n^2)
-// Space Complexity - O(1)
+/*
 
+is Stable = NO
+is Adaptive = NO
+Time Complexity = O(n^2)
+    Best Time Complexity = O(n^2)
+    Worst Time Complexity = O(n^2)
+Space Complexity = O(1)
+
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

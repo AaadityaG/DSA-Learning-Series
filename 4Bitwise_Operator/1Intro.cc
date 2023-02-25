@@ -27,6 +27,6 @@ Above here
 
   - after |   - 0 0 1 1  (which is 3 in decimal)
 
-  - after ~2  - 1 1 0 1  (which is 3 in decimal)
+  - after ~2  - 1 1 0 1  (which is -3 in decimal)
 
 */

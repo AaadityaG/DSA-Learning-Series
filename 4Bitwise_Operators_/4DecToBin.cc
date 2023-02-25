@@ -6,7 +6,7 @@ int main()
 {    
     // Mycode -- 
     int n;
-    cin>>n;                                 // 5
+    cin>>n;                          
 
     float ans = 0; 
     int i = 0;

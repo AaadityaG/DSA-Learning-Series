@@ -62,7 +62,7 @@ int main()
         cout<<" "<<v1[i];
     }
     cout<<endl<<"After: "<<endl;
-    // BubbleSort(v1);
-    AdaptiveBubbleSort(v1);
+    BubbleSort(v1);
+    // AdaptiveBubbleSort(v1);
     return 0;
 }

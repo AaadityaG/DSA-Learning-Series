@@ -1,3 +1,5 @@
+// Program to check whether you enter number or small character of capital character 
+
 #include <iostream>
 using namespace std;
 
@@ -5,8 +7,7 @@ int main()
 {    
     int a;
     cout<<"Enter your input:"<<endl;
-    // cin>>a;
-    a = cin.get();
+    a = cin.get();     // get() is used to get the character
     if(a>=48 && a<=57){
         cout<<"You entered a NUMERIC value"<<endl;
     }

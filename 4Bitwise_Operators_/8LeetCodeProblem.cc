@@ -20,12 +20,12 @@ int main()
         ans = (ans * 10 + digit);
         a = a / 10; 
         i++;
-        if(ans > (INT32_MAX/10) || ans < (INT32_MIN/10)){
-            ans = 0;
-        }
+    }
+    if(ans > (INT32_MAX/10) || ans < (INT32_MIN/10)){
+        ans = 0;
     }
     
-    cout << "Your Entered Number:" << b << endl;
+    // cout << "Your Entered Number:" << b << endl;
     cout << "Your Reverse Number:" << ans << endl;
 
     return 0;

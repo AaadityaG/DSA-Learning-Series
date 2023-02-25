@@ -18,11 +18,11 @@ int main()
     int arr[5] = {1, 2, 3, 4, 3};
     int ans = 0;
     int size = 5;
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < size; i++)
     {
         ans = ans ^ arr[i];             // xoring with each element which comes to ans = 0 at the end.
     }
-    for (int i = 1; i < 5; i++)
+    for (int i = 1; i < size; i++)
     {
         ans = ans ^ i;        // xoring with each count 
     }

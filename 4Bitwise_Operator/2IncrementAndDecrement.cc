@@ -6,9 +6,9 @@ int main()
     // increment 
     int i = 4;
     // int a = i++;   // pre - increment 
-    int a = ++i;  
+    int a = ++i;      // this one is considered to be much faster in CP
 
-    cout<<"After Post-increment:"<<endl;
+    cout<<"After Pre-increment:"<<endl;
     cout<<i<<endl;
     cout<<a<<endl;
     

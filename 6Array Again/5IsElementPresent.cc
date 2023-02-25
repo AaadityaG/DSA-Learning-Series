@@ -22,7 +22,7 @@ int main()
             cout << key << " is present!" << endl;
             break;
         }
-        else if (i == (size - 1))
+        else if (i == (size - 1))    // it means it will reach at end of the loop.
         {
             cout << key << " is not Present!" << endl;
             break;

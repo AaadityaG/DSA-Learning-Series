@@ -8,6 +8,9 @@ Time Complexity = O(n^2)
 Space Complexity = O(1)
 
 */
+
+
+// this is not ideal way of creating selection sort.
 #include <iostream>
 #include <vector>
 using namespace std;

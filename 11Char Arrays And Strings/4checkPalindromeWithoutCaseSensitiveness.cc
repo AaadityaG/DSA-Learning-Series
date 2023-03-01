@@ -23,17 +23,11 @@ char toLower(char c){
 
 bool isPalindrome(char arr[], int n){
     int s = 0;
-    int e = n-1;
-
-    for (int i = 0; arr[i]!='\0'; i++)
-    {
-        toLower(arr[i]);
-    }
-    
+    int e = n-1;    
 
     while (s<=e)
     {
-        if(arr[s]!=arr[e]){
+        if(toLower(arr[s])!=toLower(arr[e])){
             return false;
         }
         s++;
@@ -44,7 +38,7 @@ bool isPalindrome(char arr[], int n){
 
 int main()
 {    
-    char arr[4] = {'N', 'O', 'O', 'N'};
+    char arr[4] = {'N', 'O', 'o', 'o'};
 
     if(isPalindrome(arr, 4)){
         cout<<"Yes it is!";

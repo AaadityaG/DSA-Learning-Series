@@ -21,6 +21,5 @@ int main()
     cin.getline(s, 20);     // to get the full line..
     cout<<"You entered your name : "<<s;
 
-    cout<<"Length of your character array is : "<<l<<endl;
     return 0;
 }

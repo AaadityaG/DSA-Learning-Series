@@ -7,7 +7,7 @@ and for even number of columns print from top to bottom
 */
 
 
-// incomplete
+// incomplete and wrong output
 #include <iostream>
 #include <vector>
 using namespace std;

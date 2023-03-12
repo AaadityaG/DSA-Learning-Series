@@ -4,7 +4,7 @@ using namespace std;
 /*
 
 int 2d_arr[rows][columns];
-int arr[elements];
+int 1d_arr[elements];
 
 IMP - if we want to pass 2d array to a function without any const global variable we
       need to give atleast the size of columns of 2d array.
@@ -51,7 +51,7 @@ int main()
 
     // cout<<"Enter the array elements for above array: "<<endl;
 
-    // // input for 2d array  (imp - this is ROW wise input )
+    // // input for 2d array  (ROW wise input )
     // for (int i = 0; i < 3; i++)
     // {
     //     for (int j = 0; j < 4; j++)
@@ -60,7 +60,7 @@ int main()
     //     }
     // }
 
-    // // input for 2d array  (imp - this is COLUMN wise input )
+    // // input for 2d array  (COLUMN wise input )
     // for (int i = 0; i < 4; i++)
     // {
     //     for (int j = 0; j < 3; j++)
